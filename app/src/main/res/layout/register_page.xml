@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_centerInParent="true"
+    android:background="@drawable/gradient"
+    android:gravity="center_vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_radius"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_column="1"
+            android:src="@drawable/seu_logo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/username_editText"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/editext_design"
+            android:hint="Enter your username"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+
+        <EditText
+            android:id="@+id/editTextNumberPassword"
+            android:layout_width="342dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter your password"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:inputType="numberPassword"
+            tools:ignore="TouchTargetSizeCheck"
+            android:layout_column="1"
+            android:background="@drawable/editext_design"
+
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="215dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:background="@drawable/buttons"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_column="1"
+            android:paddingLeft="30dp"
+            android:paddingTop="20dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="215dp"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center" >
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="215dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottom_radius"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+
+        android:layout_marginBottom="20px">
+
+        <Button
+            android:id="@+id/go_to_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_column="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="20px"
+
+
+            android:background="@null"
+            android:gravity="left"
+            android:paddingLeft="20dp"
+            android:text="You already have an account"
+            android:textAllCaps="false"
+            android:textColor="#BFBFBF"
+            android:textSize="15sp"
+            tools:ignore="TouchTargetSizeCheck" />
+    </TableRow>
+</TableLayout>

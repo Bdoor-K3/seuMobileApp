@@ -1,0 +1,466 @@
+<html>
+<head>
+<title>course_page.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+course_page.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;ScrollView </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;@drawable/gradient&quot;</span>
+    <span class="s1">android:gravity</span><span class="s2">=&quot;center_vertical&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;LinearLayout</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span><span class="s0">&gt;</span>
+        <span class="s0">&lt;TextView</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView1&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Welocme #username&quot;</span>
+            <span class="s1">android:layout_column</span><span class="s2">=&quot;1&quot;</span>
+            <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+            <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;10dp&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+            <span class="s1">android:textSize</span><span class="s2">=&quot;25sp&quot;</span>
+            <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;TextView</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView2&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;These are your courses for this semester&quot;</span>
+            <span class="s1">android:layout_column</span><span class="s2">=&quot;1&quot;</span>
+            <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:layout_marginRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;10dp&quot;</span>
+            <span class="s1">android:layout_marginBottom</span><span class="s2">=&quot;10dp&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+            <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+            <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView3&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;110dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/it487&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView4&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Mobile Application Development&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView5&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;IT487&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView6&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton1&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot; </span><span class="s0">/&gt;</span>
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView7&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;106dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/img&quot; </span><span class="s0">/&gt;</span>
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView8&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Network Security&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView8&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;IT478&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView10&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton2&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot; </span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView11&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;124dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/img_1&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView12&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;22dp&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Introduction to Cyber Security and Digital Crime&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView13&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;IT474&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView14&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton3&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView15&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;118dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/img_3&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView16&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Decision Support Systems&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView17&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;IT475&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView18&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton4&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView19&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/img_2&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView20&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;IT Security and Policies&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView21&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;56dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;150dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;IT476&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot; </span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView22&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton5&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+        <span class="s0">&lt;androidx.cardview.widget.CardView</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;160dp&quot;</span>
+            <span class="s1">android:layout_margin</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingLeft</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:paddingRight</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:background</span><span class="s2">=&quot;@drawable/radius&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+            <span class="s0">&lt;ImageView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageView23&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;150dp&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/img_4&quot;</span>
+                <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_vertical&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView24&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;15dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Professional Issues in IT&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView25&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;40dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;IT407&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;15sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;TextView</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/textView26&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;130dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;70dp&quot;</span>
+
+                <span class="s1">android:text</span><span class="s2">=&quot;Course description&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span>
+                <span class="s1">android:textColor</span><span class="s2">=&quot;@color/black&quot;</span><span class="s0">/&gt;</span>
+
+            <span class="s0">&lt;ImageButton</span>
+                <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageButton6&quot;</span>
+                <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+                <span class="s1">android:layout_marginLeft</span><span class="s2">=&quot;300dp&quot;</span>
+                <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;95dp&quot;</span>
+                <span class="s1">android:contentDescription</span><span class="s2">=&quot;@string/app_name&quot;</span>
+                <span class="s1">android:minWidth</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:minHeight</span><span class="s2">=&quot;48dp&quot;</span>
+                <span class="s1">android:src</span><span class="s2">=&quot;@drawable/downloads&quot;</span>
+
+                <span class="s1">android:background</span><span class="s2">=&quot;@drawable/buttons&quot;</span>
+                <span class="s1">android:padding</span><span class="s2">=&quot;10dp&quot;</span>
+                <span class="s1">android:text</span><span class="s2">=&quot;Download content&quot;</span>
+                <span class="s1">android:textSize</span><span class="s2">=&quot;10sp&quot;</span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;/androidx.cardview.widget.CardView&gt;</span>
+
+
+
+    <span class="s0">&lt;/LinearLayout&gt;</span>
+<span class="s0">&lt;/ScrollView&gt;</span></pre>
+</body>
+</html>
